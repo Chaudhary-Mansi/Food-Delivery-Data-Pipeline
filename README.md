@@ -1,6 +1,6 @@
-**Food-Delivery-Data-Pipeline**
+**🚀 Food Delivery Data Pipeline**
 
-**Overview**
+**📌 Overview**
 
 This project implements an end-to-end data engineering pipeline for a food delivery platform using PySpark and Apache Airflow. The pipeline is designed to simulate real-world data processing workflows commonly used in large-scale systems like Swiggy or Zomato.
 It extracts raw order data from a CSV source (representing data ingestion from distributed storage such as HDFS), processes and transforms the data using PySpark to generate meaningful business metrics like revenue and delivery delays, and stores the transformed data in Parquet format for efficient analytics.
