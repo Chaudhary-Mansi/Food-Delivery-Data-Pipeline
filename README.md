@@ -34,7 +34,7 @@ Follows industry best practices such as idempotent processing, structured loggin
 
 The pipeline follows a modular ETL architecture designed to simulate real-world data engineering systems.
 
-** 1. Data Ingestion (Extract Layer)**
+**1. Data Ingestion (Extract Layer)**
 
 Raw order data is ingested from a CSV file, simulating data input from distributed storage systems such as HDFS or cloud storage (e.g., S3). PySpark reads the data into a distributed DataFrame for parallel processing.
 
