@@ -18,7 +18,7 @@ Implements a complete Extract → Transform → Load workflow, from raw data ing
 - **Business-Centric Transformations**
 Generates key metrics such as revenue calculation and delivery delay indicators to support data-driven decision-making.
 
--**Optimized Storage using Parquet**
+- **Optimized Storage using Parquet**
 Stores processed data in columnar Parquet format for faster querying and improved storage efficiency.
 
 - **Workflow Orchestration with Apache Airflow**
@@ -83,22 +83,32 @@ Parquet (Data Storage)
 **📁 Project Structure**
 food-delivery-data-pipeline/
 │
-├── dags/                        
+├── dags/    
+|   | 
 │   └── etl_dag.py
 │
-├── src/                          
+├── src/    
+|   |
 │   ├── extract.py
+|   |
 │   ├── transform.py
+|   |
 │   ├── load.py
+|   |
 │   └── main.py
 │
-├── data/                         
-│   ├── raw_orders.csv            
+├── data/     
+|   |
+│   ├── raw_orders.csv   
+|   |
 │   └── processed/               
 │
 ├── logs/                         
 │
-├── config.py                    
-├── requirements.txt              
-├── README.md                   
+├── config.py 
+|   |
+├── requirements.txt    
+|   |
+├── README.md 
+|   |
 ├── .gitignore                    
