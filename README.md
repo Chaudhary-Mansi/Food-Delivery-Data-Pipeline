@@ -80,7 +80,8 @@ Python
 Apache Airflow
 Parquet (Data Storage)
 
-**📁 Project Structure**
+**📁 Project Structure** 
+```
 food-delivery-data-pipeline/
 │
 ├── dags/    
@@ -112,3 +113,4 @@ food-delivery-data-pipeline/
 ├── README.md 
 |   |
 ├── .gitignore                    
+```
